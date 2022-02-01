@@ -10,14 +10,12 @@ st.markdown('''
 
 This is the data sciene App for data management.. ''')
 
-Upload CSV data
+# Upload CSV data
 with st.sidebar.header('1. Upload your CSV data'):
     uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["csv"])
-    st.sidebar.markdown("""
-[Example CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv)
-""")
+    st.sidebar.markdown
 
-Pandas Profiling Report
+# Pandas Profiling Report
 if uploaded_file is not None:
     @st.cache
     def load_csv():
