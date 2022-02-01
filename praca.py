@@ -4,10 +4,8 @@ import streamlit as st
 
 # Web App Title
 st.markdown('''
-# **The EDA App**
-This is the **EDA App** created in Streamlit using the **pandas-profiling** library.
-**Credit:** App built in `Python` + `Streamlit` by [Chanin Nantasenamat](https://medium.com/@chanin.nantasenamat) (aka [Data Professor](http://youtube.com/dataprofessor))
----
+# **Prokal Data Science App**
+This is Prokal data science app for data management 
 ''')
 
 # Upload CSV data
