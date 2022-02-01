@@ -9,8 +9,8 @@ This is Prokal data science app for data management
 ''')
 
 # Upload CSV data
-with st.sidebar.header('1. Upload your CSV data'):
-    uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["csv"])
+with st.sidebar.header('1. Upload CSV file'):
+    uploaded_file = st.sidebar.file_uploader("Input CSV file", type=["csv"])
 
 
 
