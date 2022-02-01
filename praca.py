@@ -21,13 +21,3 @@ if uploaded_file is not None:
         return csv
 else:
     st.info('Awaiting for CSV file to be uploaded.')
-    if st.button('Press to use Example Dataset'):
-        # Example data
-        @st.cache
-        def load_data():
-            a = pd.DataFrame(
-                np.random.rand(100, 5),
-                columns=['a', 'b', 'c', 'd', 'e']
-            )
-            return a
-  
