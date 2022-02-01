@@ -19,7 +19,6 @@ if uploaded_file is not None:
     def load_csv():
         csv = pd.read_csv(uploaded_file)
         return csv
-    df = load_csv()
 else:
     st.info('Awaiting for CSV file to be uploaded.')
     if st.button('Press to use Example Dataset'):
@@ -31,5 +30,4 @@ else:
                 columns=['a', 'b', 'c', 'd', 'e']
             )
             return a
-        df = load_data()
   
