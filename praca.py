@@ -2,10 +2,11 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-# Web App Title
 st.markdown('''
-# **Prokal Data Science App**
-This is data science app for data management
+# **The EDA App**
+This is the **EDA App** created in Streamlit using the **pandas-profiling** library.
+**Credit:** App built in `Python` + `Streamlit` by [Chanin Nantasenamat](https://medium.com/@chanin.nantasenamat) (aka [Data Professor](http://youtube.com/dataprofessor))
+---
 ''')
 
 # Upload CSV data
